@@ -4,6 +4,7 @@ const fs = require("fs");
 const path = require("path");
 
 const server = http.createServer((req, res) => {
+  //To implement different http methods check for res.method (to get http method like GET,POST), if it's POST use bodyparser module or listen for data event to get body of the post req
   if (
     ["/example.html", "/example.css", "/example.png", "/example.json"].includes(
       req.url
