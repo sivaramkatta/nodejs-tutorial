@@ -57,5 +57,5 @@ app.delete("/api/user/:id", (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log("server is running...");
+  console.log("api server is running...");
 });
