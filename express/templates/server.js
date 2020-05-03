@@ -11,4 +11,6 @@ app.get("/", (req, res) => {
   res.render("views/index", { pageName: "dashboard" });
 });
 
-app.listen(3000);
+app.listen(3000, () => {
+  console.log("template server running...");
+});

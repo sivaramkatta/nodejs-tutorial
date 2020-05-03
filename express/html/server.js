@@ -17,5 +17,5 @@ app.get("/profile/:id", (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log("html server is running on 3000");
+  console.log("html server is running...");
 });
