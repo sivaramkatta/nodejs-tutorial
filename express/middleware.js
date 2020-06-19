@@ -1,4 +1,4 @@
-// middleware is executed between user req and server
+// middleware is executed between user req n server
 const express = require("express");
 
 const app = express();
